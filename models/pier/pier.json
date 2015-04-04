@@ -1,0 +1,123 @@
+{
+	"metadata": {
+		"version": 4.3,
+		"type": "Object",
+		"generator": "ObjectExporter"
+	},
+	"geometries": [
+		{
+			"uuid": "FBE7DB00-6BB3-4A78-A867-4F7A4047379F",
+			"type": "BoxGeometry",
+			"width": 100,
+			"height": 100,
+			"depth": 100,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "64B253DF-141D-43FE-8EB5-059EE9A2767A",
+			"type": "CylinderGeometry",
+			"radiusTop": 10,
+			"radiusBottom": 10,
+			"height": 200,
+			"radialSegments": 32,
+			"heightSegments": 1,
+			"openEnded": false
+		}],
+	"materials": [
+		{
+			"uuid": "43319E8F-690B-48BC-8A10-C24BF9D5A3B0",
+			"type": "MeshPhongMaterial",
+			"color": 5056000,
+			"emissive": 0,
+			"specular": 1118481,
+			"shininess": 30
+		},
+		{
+			"uuid": "B009DFD6-4872-487C-90B0-9967A688FC66",
+			"type": "MeshPhongMaterial",
+			"color": 5712896,
+			"emissive": 0,
+			"specular": 1118481,
+			"shininess": 30
+		}],
+	"object": {
+		"uuid": "5C8999CB-8C6A-4278-8F11-A8DBE5E134D6",
+		"type": "Scene",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "8092EA7B-948C-4BAC-A8A3-9E17DF857ACD",
+				"type": "Mesh",
+				"name": "Box 1",
+				"geometry": "FBE7DB00-6BB3-4A78-A867-4F7A4047379F",
+				"material": "43319E8F-690B-48BC-8A10-C24BF9D5A3B0",
+				"matrix": [0.9594520926475525,0,0,0,0,0.05328620597720146,0,0,0,0,9.82267951965332,0,0,0,0,1]
+			},
+			{
+				"uuid": "864A5D05-AA72-461E-9FF4-49BAA567C70E",
+				"type": "Mesh",
+				"name": "Cylinder 3",
+				"geometry": "64B253DF-141D-43FE-8EB5-059EE9A2767A",
+				"material": "B009DFD6-4872-487C-90B0-9967A688FC66",
+				"matrix": [1,0,0,0,0,-4.561737060546875,0,0,0,0,1,0,-57.3497428894043,-425.7276916503906,352.89752197265625,1]
+			},
+			{
+				"uuid": "CF925188-EA13-4AB6-A1F5-16BECD8DFA3B",
+				"type": "Mesh",
+				"name": "Cylinder 3",
+				"geometry": "64B253DF-141D-43FE-8EB5-059EE9A2767A",
+				"material": "B009DFD6-4872-487C-90B0-9967A688FC66",
+				"matrix": [1,0,0,0,0,-4.561737060546875,0,0,0,0,1,0,-57.3497428894043,-425.7276916503906,144.83712768554688,1]
+			},
+			{
+				"uuid": "19FD4FEA-6E7A-4540-B8EC-1B5E52201E3D",
+				"type": "Mesh",
+				"name": "Cylinder 3",
+				"geometry": "64B253DF-141D-43FE-8EB5-059EE9A2767A",
+				"material": "B009DFD6-4872-487C-90B0-9967A688FC66",
+				"matrix": [1,0,0,0,0,-4.561737060546875,0,0,0,0,1,0,49.764442443847656,-425.7276916503906,144.83712768554688,1]
+			},
+			{
+				"uuid": "A355E6C6-4089-414A-9D63-C65A95075330",
+				"type": "Mesh",
+				"name": "Cylinder 3",
+				"geometry": "64B253DF-141D-43FE-8EB5-059EE9A2767A",
+				"material": "B009DFD6-4872-487C-90B0-9967A688FC66",
+				"matrix": [1,0,0,0,0,-4.561737060546875,0,0,0,0,1,0,50.42746353149414,-425.7276916503906,344.2461853027344,1]
+			},
+			{
+				"uuid": "ABD023ED-448A-4850-8155-4B9237014E86",
+				"type": "Mesh",
+				"name": "Cylinder 3",
+				"geometry": "64B253DF-141D-43FE-8EB5-059EE9A2767A",
+				"material": "B009DFD6-4872-487C-90B0-9967A688FC66",
+				"matrix": [1,0,0,0,0,-4.561737060546875,0,0,0,0,1,0,-57.3497428894043,-425.7276916503906,-91.64271545410156,1]
+			},
+			{
+				"uuid": "D00EF609-5B20-4B40-A667-95B44F8DCCA9",
+				"type": "Mesh",
+				"name": "Cylinder 3",
+				"geometry": "64B253DF-141D-43FE-8EB5-059EE9A2767A",
+				"material": "B009DFD6-4872-487C-90B0-9967A688FC66",
+				"matrix": [1,0,0,0,0,-4.561737060546875,0,0,0,0,1,0,55.54255676269531,-425.7276916503906,-91.64271545410156,1]
+			},
+			{
+				"uuid": "C9DDE855-C8BF-4D75-B58D-2A7B9F332F4A",
+				"type": "Mesh",
+				"name": "Cylinder 3",
+				"geometry": "64B253DF-141D-43FE-8EB5-059EE9A2767A",
+				"material": "B009DFD6-4872-487C-90B0-9967A688FC66",
+				"matrix": [1,0,0,0,0,-4.561737060546875,0,0,0,0,1,0,-57.3497428894043,-425.7276916503906,-302.7571716308594,1]
+			},
+			{
+				"uuid": "70DDB7B5-2581-46E1-888E-585DAB892417",
+				"type": "Mesh",
+				"name": "Cylinder 3",
+				"geometry": "64B253DF-141D-43FE-8EB5-059EE9A2767A",
+				"material": "B009DFD6-4872-487C-90B0-9967A688FC66",
+				"matrix": [1,0,0,0,0,-4.561737060546875,0,0,0,0,1,0,55.54255676269531,-425.7276916503906,-308.53314208984375,1]
+			}]
+	}
+}
